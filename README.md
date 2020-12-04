@@ -98,6 +98,6 @@ Alias | Description | Équivalent |
 @daily / @midnight | Tous les jours | 0 0 * * * |
 @hourly | Toutes les heures | 0 * * * * |
 
-Enfin, il existe un alias qui ( n'en est pas vraiment un finalement) faisant référence au démarrage de la machine : <b>@reboot</b>.
+Enfin, il existe un alias (qui n'en est pas vraiment un finalement) faisant référence au démarrage de la machine : <b>@reboot</b>.
 ______________________________
-<i>Écrit par Xen0rInspire.</i>
+<i>Écrit par Xen0rInspire. Mis à jour le 04/12/2020</i>

@@ -58,13 +58,13 @@ En théorie voici ce que Crontab nous dis :
 ```
 Mais avouez cependant qu'au premier abord c'est pas très intuitif...
 
-Imaginez un tableau Excel dans lequel vous ajouter des ligne dans celui-ci. Crontab c'est sensiblement la même chose. Chaque colonne correspond à une information bien spécifique :
+Imaginez un tableau Excel dans lequel vous ajouter des lignes dans celui-ci. Crontab c'est sensiblement la même chose. Chaque colonne correspond à une information bien spécifique :
 
 - Le "<b>m</b>" étant la minute précise à laquelle la commande sera exécutée (par exemple la 24ème à une heure du matin).
 - Le "<b>h</b>" étant l'heure de la journée (en format 24h).
-- Le "<b>dom</b>" pour Day Of The Month étant le jour du moins.
+- Le "<b>dom</b>" pour "Day Of The Month" étant le jour du moins.
 - Le "<b>mon</b>" quant à lui fait référence au mois de l'année (de 1 à 12).
-- Le "<b>dow</b>" pour Day Of The Week correspond au jour de la semaine de 0 à 6. 0 étant le dimanche et samedi le 6.
+- Le "<b>dow</b>" pour "Day Of The Week" correspond au jour de la semaine de 0 à 6. 0 étant le dimanche et samedi le 6.
 - Puis la colonne "<b>command</b>", étant la commande que vous souhaitez exécuter. Plutôt logique !
 
 Faites donc attention d'avoir au moins 5 espaces dans votre ligne pour renseigner chacune des colonnes du "tableau". Si vous ne souhaitez pas prendre en compte un des critères de planification de l'évènement, vous pouvez mettre une "*" à la place de la valeur.
@@ -100,4 +100,4 @@ Alias | Description | Équivalent |
 
 Enfin, il existe un alias (qui n'en est pas vraiment un finalement) faisant référence au démarrage de la machine : <b>@reboot</b>.
 ______________________________
-<i>Écrit par Xen0rInspire. Mis à jour le 04/12/2020</i>
+<i>Écrit par Xen0rInspire. Mis à jour le 18/01/2021</i>

@@ -27,7 +27,7 @@ crontab -e
 ```
 
 Cette commande aura pour effet d'ouvrir votre éditeur de texte favori et vous pourrez ainsi ajouter une tâche planifiée dans le fichier.
-Veillez cependant à avoir les droits pour exécuter cette commande avec l'utilisateur sur lequel vous avez entré la commande ci-dessus. En effet, si vous tenter d'accéder à des fichiers sur lesquels vous n'avez pas les droits en lecture par exemple, votre commande ne sera pas exécutée !
+Veillez cependant à avoir les droits pour exécuter cette commande avec l'utilisateur sur lequel vous avez entré la commande ci-dessus. En effet, si vous tenter d'accéder à des fichiers sur lesquels vous n'avez pas les droits en lecture par exemple, votre commande peut ne pas fonctionner et aucune erreur sera affichée à l'écran !
 
 Si vous souhaitez exécuter cette commande avec l'utlisateur qui possède ces droits, vous avez le choix entre changer d'utilisateur manuellement et relancer la commande précédente ou de faire cette commande :
 
@@ -35,7 +35,7 @@ Si vous souhaitez exécuter cette commande avec l'utlisateur qui possède ces dr
 crontab -u <utilisateur> -e
 ```
 
-Vous aurez cependant besoin d'ajouter un <b>sudo</b> devant la commande si vous voulez modifier le planificateur d'évènements du compte *root*.
+Vous aurez cependant besoin d'ajouter un <b>sudo</b> devant la commande si vous voulez modifier le planificateur d'évènements du compte *root*. Si votre utilisateur en possède les droits bien entendu.
 
 <i><b>Remarque :</b> Pour toutes ces manipulations, je vous conseille de passer par l'éditeur Crontab plutôt que d'essayer de chercher le fichier de configuration manuellement sur la machine. De plus, ce dernier est suceptible de changer d'emplacement en fonction de la distribution Linux que vous utilisez.</i> 
 
@@ -58,7 +58,7 @@ En théorie voici ce que Crontab nous dis :
 ```
 Mais avouez cependant qu'au premier abord c'est pas très intuitif...
 
-Imaginez un tableau Excel dans lequel vous ajouter des lignes dans celui-ci. Crontab c'est sensiblement la même chose. Chaque colonne correspond à une information bien spécifique :
+Imaginez un tableau Excel dans lequel vous ajoutez des lignes dans celui-ci. Crontab c'est sensiblement la même chose. Chaque colonne correspond à une information bien spécifique :
 
 - Le "<b>m</b>" étant la minute précise à laquelle la commande sera exécutée (par exemple la 24ème à une heure du matin).
 - Le "<b>h</b>" étant l'heure de la journée (en format 24h).
@@ -100,4 +100,4 @@ Alias | Description | Équivalent |
 
 Enfin, il existe un alias (qui n'en est pas vraiment un finalement) faisant référence au démarrage de la machine : <b>@reboot</b>.
 ______________________________
-<i>Écrit par Xen0rInspire. Mis à jour le 18/01/2021</i>
+<i>Écrit par Xen0rInspire. Mis à jour le 01/02/2022</i>

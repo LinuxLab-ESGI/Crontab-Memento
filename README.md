@@ -37,7 +37,7 @@ crontab -u <utilisateur> -e
 
 Vous aurez cependant besoin d'ajouter un <b>sudo</b> devant la commande si vous voulez modifier le planificateur d'évènements du compte *root*. Si votre utilisateur en possède les droits bien entendu.
 
-<i><b>Remarque :</b> Pour toutes ces manipulations, je vous conseille de passer par l'éditeur Crontab plutôt que d'essayer de chercher le fichier de configuration manuellement sur la machine. De plus, ce dernier est suceptible de changer d'emplacement en fonction de la distribution Linux que vous utilisez.</i> 
+> Pour ces différentes manipulations, je vous conseille de passer par l'éditeur Crontab plutôt que d'essayer de chercher le fichier de configuration manuellement sur la machine. De plus, ce dernier est suceptible de changer d'emplacement en fonction de la distribution Linux que vous utilisez.</i> 
 
 Vous pouvez également lister la liste de vos taches programmées de l'utilisateur courant avec la commande : 
 ```

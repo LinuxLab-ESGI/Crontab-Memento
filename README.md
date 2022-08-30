@@ -7,7 +7,7 @@ __________
 Si Crontab n'est pas installé par défaut, vous pouvez toujours le faire via la commande : 
 
 ```
-apt install crontab -y
+apt install cron -y
 ```
 <i>Pour les distributions Debian ou</i>
 ```

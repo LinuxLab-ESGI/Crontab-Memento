@@ -11,7 +11,7 @@ apt install crontab -y
 ```
 <i>Pour les distributions Debian ou</i>
 ```
-yum install crontab -y
+dnf install cronie -y
 ```
 <i>Pour les distributions Redhat</i>
 
@@ -100,4 +100,4 @@ Alias | Description | Équivalent |
 
 Enfin, il existe un alias (qui n'en est pas vraiment un finalement) faisant référence au démarrage de la machine : <b>@reboot</b>.
 ______________________________
-<i>Écrit par Xen0rInspire. Mis à jour le 01/02/2022</i>
+<i>Écrit par Xen0rInspire. Mis à jour le 30/08/2022</i>

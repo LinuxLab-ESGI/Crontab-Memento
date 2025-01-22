@@ -62,7 +62,7 @@ Imaginez un tableau Excel dans lequel vous ajoutez des lignes dans celui-ci. Cro
 
 - Le "<b>m</b>" étant la minute précise à laquelle la commande sera exécutée (par exemple la 24ème à une heure du matin).
 - Le "<b>h</b>" étant l'heure de la journée (en format 24h).
-- Le "<b>dom</b>" pour "Day Of The Month" étant le jour du moins.
+- Le "<b>dom</b>" pour "Day Of The Month" étant le jour du mois.
 - Le "<b>mon</b>" quant à lui fait référence au mois de l'année (de 1 à 12).
 - Le "<b>dow</b>" pour "Day Of The Week" correspond au jour de la semaine de 0 à 6. 0 étant le dimanche et samedi le 6.
 - Puis la colonne "<b>command</b>", étant la commande que vous souhaitez exécuter. Plutôt logique !
@@ -100,4 +100,4 @@ Alias | Description | Équivalent |
 
 Enfin, il existe un alias (qui n'en est pas vraiment un finalement) faisant référence au démarrage de la machine : <b>@reboot</b>.
 ______________________________
-<i>Écrit par Xen0rInspire. Mis à jour le 30/08/2022</i>
+<i>Écrit par Xen0rInspire. Mis à jour le 22/01/2025</i>
